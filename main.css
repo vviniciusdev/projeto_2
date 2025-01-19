@@ -4,34 +4,47 @@
     box-sizing: border-box;
 }
 
-.bebas-neue-regular,
+.black-ops-one-regular,
 header,
 section h2,
 section h3,
 form button {
-    font-family: "Bebas Neue", serif;
-    font-weight: normal 400;
-    font-style: normal;
-    font-size: 18px;
-}
-
-
-.ranga-regular, body, input, textarea {
-    font-family: "Ranga", serif;
+    font-family: "Black Ops One", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 18px;
+}
+
+.teko, body, input, textarea {
+    font-family: "Teko", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 
 header {
-    padding: 16px 0;
-    background-color: #182C61;
-    color: #ecf0f1;
+    padding: 10px 0;
+    background-color: #237e23 ;
+    color: #ffffff;
+    width: 63%;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
     font-size: 75px;
     font-weight: normal;
+}
+
+h2 {
+    padding: 10px 0;
+    background-color: #237e23;
+    color: #ffffff;
+    width: 30%;
+    margin: 10px auto;
+    border-radius: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Adicione essa linha */
 }
 
 header nav li {
@@ -49,7 +62,7 @@ header nav li a {
 }
 
 header nav li a:hover {
-    background-color: #325ac9;
+    background-color: #34bd34;
 }
 
 .container {
@@ -80,17 +93,13 @@ section .container {
 
 section {
     padding: 24px 0;
-    color: #182C61;
+    color: #0f360f;
 }
 
 section h2 {
     margin-bottom: 16px;
     font-size: 30px;
 }
-
-/*section {
-    color: #182C61;
-}*/
 
 section p {
     margin-bottom: 8px;
@@ -142,7 +151,7 @@ section h3 {
 
 button {
     cursor: pointer;
-    background-color: #182C61;
+    background-color: #0f360f;
     color: #ccc;
     border: none;
     padding: 5px 15px;
@@ -150,15 +159,25 @@ button {
 }
 
 form button:hover {
-    background-color:#2f55c0;
+    background-color:#2d962d;
 }
 
 input:focus, textarea:focus {
-    outline-color: #182C61;
+    outline-color: #0f360f;
 }
 
 footer {
-    background-color: #182C61;
+    background-color: #0f360f;
     color: #ccc;
     padding: 12px 0;
+}
+
+.container {
+    opacity: 0.9;
+    background-color: #3E8E41; 
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
