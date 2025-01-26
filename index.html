@@ -59,15 +59,16 @@
             <div class="contact_methods">
                 <div>
                     <h3>Fale conosco</h3>
-                    <form action="formulario">
-                        <input type="text" placeholder="Seu nome" required></input>
-                        <input type="tel" placeholder="Seu numero(opcional)"></input>
-                        <input type="email" placeholder="Seu e-mail" required></input>
-                        <textarea name="textarea" id="" placeholder="Deixa sua mensagem" required></textarea>
+                    <form id="form_contact">
+                        <input type="text" id="name_YourName" placeholder="Seu nome" required></input>
+                        <input type="tel" id="number_YourNumber" placeholder="Seu numero(opcional)"></input>
+                        <input type="email" id="email_YourEmail" placeholder="Seu e-mail" required></input>
+                        <textarea id="text_YourText" name="textarea" id="" placeholder="Deixa sua mensagem" required></textarea>
                         <button type="submit">enviar</button>
                         <button type="reset">apagar</button>
                     </form>
                 </div>
+                <script src="./main.js"></script>
                 <div>
                     <h3>Nos acompanhe</h3>
                     <ul class="socials">
@@ -109,5 +110,6 @@
             </p>
         </div>
     </footer>
+
 </body>
 </html>
