@@ -5,12 +5,13 @@ function validaNome(fullName){
     return nameWithArray.length >= 2;
 }
 
-form.addEventListener('submit', function(e){
-    let formValid = false
+form.addEventListener('submit', function(e: SubmitEvent) : void{
+    let formValid : Boolean = false
     e.preventDefault();
 
-    const nameYourName = document.getElementById ('name_YourName');
-    formValid = validaNome(nameYourNamed.value)
+    const nameYourName : HTMLElement = document.getElementById ('name_YourName');
+
+    formValid = validaNome(name_YourName.value)
     if (formValid) {
         alert("O nome está incorreto!");
     } else {
